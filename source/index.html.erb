@@ -1,0 +1,49 @@
+---
+pageable: true
+per_page: 10
+---
+
+<div class="row post">
+  <div class="small-12 columns">
+    <div class="card">
+      <p>Hello,</p>
+      <p>I am currently out exploring the world.
+        Here you can find out about my travels, how to hire me or check-out
+        some of my other projects.</p>
+
+      <p><strong>Current plans:</strong></p>
+      <ul>
+        <li><s>Early June - Sailing about France on @svellipsis</s></p>
+        <li>Early June - Wales / Portugal / France</p>
+        <li>Late June - Thailand / Vietnam</p>
+        <li>Early July - Phillipines / Indonesia / Singapore</p>
+        <li>Late July - USA / Canada</p>
+    </div>
+  </div>
+</div>
+
+<div class="row post">
+  <div class="small-12 columns">
+    <% page_articles.each_with_index do |article, i| %>
+    <div class="card">
+      <h3><%= link_to article.title, article %></h3>
+      <h6>Posted on <%= article.date.strftime('%b %e') %></h6>
+      <%= article.summary(250) %>
+    </div>
+    <% end %>
+  </div>
+</div>
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+
+  <% if num_pages > 1 %>
+    <p>Page <%= page_number %> of <%= num_pages %></p>
+  <% end %>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>

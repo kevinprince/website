@@ -1,0 +1,31 @@
+<% wrap_layout :layout do %>
+<div class="blogpost row">
+
+  <% if current_page.data.masthead %>
+    <div class="small-12 columns">
+      <div class="blogpost__masthead">
+        <%= image_tag current_page.data.masthead %>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="small-12 columns">
+    <div class="blogpost__content">
+      <h1><%= current_page.data.title %></h1>
+      <h6>Posted on <%= current_page.date.strftime('%B %d, %Y') %></h6>
+      <%= yield %>
+    </div>
+  </div>
+
+  <% if current_page.data.flickr_set %>
+  <div class="small-12 columns">
+    <div class="blogpost__content">
+      <h3>Photos</h3>
+      <h6>via Flickr</h6>
+      <div style='position: relative; padding-bottom: 101%; height: 0; overflow: hidden;'><iframe id='iframe' src='//flickrit.com/slideshowholder.php?height=100&size=big&setId=<%= current_page.data.flickr_set %>&credit=1&thumbnails=0&transition=0&layoutType=responsive&sort=0' scrolling='no' frameborder='0'style='width:100%; height:100%; position: absolute; top:0; left:0;' ></iframe></div>
+    </div>
+  </div>
+  <% end %>
+
+</div>
+<% end %>
