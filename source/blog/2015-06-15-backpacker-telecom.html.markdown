@@ -12,7 +12,7 @@ to attend TADHack at the Institute of Superior Technology.
 During the hackday I built a little hack to help me stay connected while
 traveling without breaking the bank using Truphone, Twilio and local data sims.
 
-The hack even won a $100 prize from Truphone.
+The hack even won a $1000 prize from Truphone.
 
 It works like this:
 
