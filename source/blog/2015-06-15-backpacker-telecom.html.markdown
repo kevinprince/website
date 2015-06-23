@@ -25,6 +25,6 @@ This means I have a lot more control over my roaming costs and can decide how to
 - Timezone based call control (no more 4am PPI calls)
 - PayPhone reverse call. (call a number and get Twilio to call me back for 'free' calls)
 
-The tidied up code is up on github at (github.com/kevinprince/telecom).
+I am just tidying up the code and will post it on GitHub soon.
 
 I have the rest of the week in Lisbon to rest-up and get ready to head to Asia.
