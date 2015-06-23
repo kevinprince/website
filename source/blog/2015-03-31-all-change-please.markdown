@@ -1,7 +1,7 @@
 ---
 title: All change please!
 date: 2015-03-31
-tags: example
+tags: telco
 published: true
 ---
 
