@@ -45,7 +45,7 @@
     <link rel="alternate" href="http://blog.url.com/2015/06/backpacker-telecom/"/>
     <id>http://blog.url.com/2015/06/backpacker-telecom/</id>
     <published>2015-06-15T21:00:00+07:00</published>
-    <updated>2015-06-23T03:33:46+07:00</updated>
+    <updated>2015-06-23T19:44:54+07:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -55,7 +55,7 @@ to attend TADHack at the Institute of Superior Technology.&lt;/p&gt;
 &lt;p&gt;During the hackday I built a little hack to help me stay connected while
 traveling without breaking the bank using Truphone, Twilio and local data sims.&lt;/p&gt;
 
-&lt;p&gt;The hack even won a $100 prize from Truphone.&lt;/p&gt;
+&lt;p&gt;The hack even won a $1000 prize from Truphone.&lt;/p&gt;
 
 &lt;p&gt;It works like this:&lt;/p&gt;
 
@@ -72,7 +72,7 @@ traveling without breaking the bank using Truphone, Twilio and local data sims.&
   &lt;li&gt;PayPhone reverse call. (call a number and get Twilio to call me back for 'free' calls)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The tidied up code is up on github at (github.com/kevinprince/telecom).&lt;/p&gt;
+&lt;p&gt;I am just tidying up the code and will post it on GitHub soon.&lt;/p&gt;
 
 &lt;p&gt;I have the rest of the week in Lisbon to rest-up and get ready to head to Asia.&lt;/p&gt;
 </content>
